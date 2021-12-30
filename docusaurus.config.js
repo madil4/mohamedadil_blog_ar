@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Awatif Engine",
-  tagline: "A physics engine for structural engineers",
-  url: "https://awatif.co",
+  title: "مدونة محمد عادل",
+  tagline: "Welcome to my minimalist blog",
+  url: "https://mohamedadil.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "madil4", // Usually your GitHub org/user name.
-  projectName: "awatif_website", // Usually your repo name.
+  projectName: "mohamedadil_website", // Usually your repo name.
 
   presets: [
     [
@@ -45,39 +45,39 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Awatif Engine",
-        logo: {
-          alt: "Awatif logo",
-          src: "img/logo.svg",
-        },
-        // items: [
-        //   {
-        //     type: "doc",
-        //     docId: "intro",
-        //     position: "left",
-        //     label: "Tutorial",
-        //   },
-        //   { to: "/blog", label: "Blog", position: "left" },
-        //   {
-        //     href: "https://github.com/facebook/docusaurus",
-        //     label: "GitHub",
-        //     position: "right",
-        //   },
-        // ],
+        title: "مدونة محمد عادل",
+        // logo: {
+        //   alt: "Awatif logo",
+        //   src: "img/logo.svg",
+        // },
+        items: [
+          // {
+          //   type: "doc",
+          //   docId: "intro",
+          //   position: "left",
+          //   label: "Tutorial",
+          // },
+          {
+            to: "https://mohamedadil.com",
+            label: "English",
+            position: "right",
+          },
+          // {
+          //   href: "https://github.com/facebook/docusaurus",
+          //   label: "GitHub",
+          //   position: "right",
+          // },
+        ],
       },
       footer: {
         style: "dark",
         links: [
           {
-            title: "Contact Info",
+            title: "للتواصل",
             items: [
               {
-                label: "mohamed@awatif.co",
-                href: "mailto:me@awatif.co",
-              },
-              {
-                label: "LinkedIn",
-                href: "https://www.linkedin.com/in/mohamed-adil4/",
+                label: "me@mohamedadil.com",
+                href: "mailto:me@mohamedadil.com",
               },
             ],
           },
@@ -112,7 +112,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Awatif Engine`,
+        // copyright: `Copyright © ${new Date().getFullYear()} Awatif Engine`,
       },
       prism: {
         theme: lightCodeTheme,
